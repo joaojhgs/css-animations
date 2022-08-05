@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  painel:
+    build: .
+    container_name: tickey-ecommerce
+    working_dir: /app
+    env_file:
+        - .env
+    ports:
+        - 8080:8080

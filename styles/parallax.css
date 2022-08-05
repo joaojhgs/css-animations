@@ -1,0 +1,9 @@
+.background {
+    scroll-behavior: smooth;
+    transform-style: preserve-3d;
+    perspective: 10px;
+}
+
+.backgroundImage {
+    perspective: -10px, scale(2);
+}
