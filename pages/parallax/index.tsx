@@ -7,11 +7,11 @@ const Parallax = () => {
     <div className="w-full h-[100vh] overflow-y-auto overflow-x-hidden wrapper">
       <div className="background w-[100vw] h-[100vh] relative">
         <img
-          src="/images/background.jpg"
+          src="https://joaojhgs.github.io/css-animations/images/background.jpg"
           className="backgroundImg image"
         />
         <img
-          src="/images/foreground.png"
+          src="https://joaojhgs.github.io/css-animations/images/foreground.png"
           className="foregroundImg image"
         />
       </div>
