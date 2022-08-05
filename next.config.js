@@ -1,6 +1,7 @@
 const withImages = require('next-images');
 
 module.exports = withImages({
+  basePath: '/css-animations',
   images: {
     disableStaticImages: true,
   },
