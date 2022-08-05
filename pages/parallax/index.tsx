@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import backgroundImg from "../../public/images/background.jpg";
-import foregroundImg from "../../public/images/foreground.png";
 
 
 const Parallax = () => {
@@ -9,11 +7,11 @@ const Parallax = () => {
     <div className="w-full h-[100vh] overflow-y-auto overflow-x-hidden wrapper">
       <div className="background w-[100vw] h-[100vh] relative">
         <img
-          src={backgroundImg}
+          src="../../public/images/background.jpg"
           className="backgroundImg image"
         />
         <img
-          src={foregroundImg}
+          src="../../public/images/foreground.png"
           className="foregroundImg image"
         />
       </div>
