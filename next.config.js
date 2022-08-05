@@ -1,12 +1,3 @@
-const withImages = require('next-images');
-
-module.exports = withImages({
+module.exports = {
   basePath: '/css-animations',
-  images: {
-    disableStaticImages: true,
-  },
-  output: 'standalone',
-  webpack(config) {
-    return config;
-  },
-});
+};
